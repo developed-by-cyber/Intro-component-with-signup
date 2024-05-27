@@ -135,7 +135,8 @@ small span {
   transform: translateY(-50%);
   top: 50%;
   z-index: 2;
-  font-size: 15px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.767);
   cursor: pointer;
 }
 .hidePass {
@@ -144,9 +145,10 @@ small span {
   transform: translateY(-50%);
   top: 50%;
   z-index: 2;
-  font-size: 15px;
+  font-size: 20px;
   display: none;
   cursor: pointer;
+  color: rgba(0, 0, 0, 0.767);
 }
 .hold {
   position: relative;
@@ -175,6 +177,9 @@ label .error-icon {
   font-size: 25px;
   color: #FF7A7A;
   display: none;
+}
+.ps{
+  right: 3rem !important;
 }
 .text::-webkit-input-placeholder{
   color: #FF7A7A;
